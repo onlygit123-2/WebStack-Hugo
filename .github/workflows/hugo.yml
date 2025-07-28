@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'static/assets/images/**'
+      - 'static/assets/images/logos/**'
+      - '.github/workflows/**'
 
 jobs:
   deploy:
