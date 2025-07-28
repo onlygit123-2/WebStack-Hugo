@@ -5,39 +5,39 @@
   links: 
     - title: 语雀
       logo: 语雀.webp
-      url: https://www.yuque.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: 专业的云端知识库。
     - title: QQ 邮箱
       logo: qq邮箱.png
-      url: http://mail.qq.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: 腾讯 QQ 邮箱。
     - title: 开源中国
       logo: 开源中国.jpg
-      url: https://www.oschina.net/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: 中文开源技术交流社区。
     - title: 公众号平台
       logo: 微信公众号.png
-      url: https://mp.weixin.qq.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: 再小的个体也有自己的品牌。
     - title: GitHub
       logo: github.png
-      url: https://github.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: GitHub 开源社区。
     - title: 搜狗微信
       logo: 搜狗微信.jpg
-      url: https://weixin.sogou.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: 搜狗微信搜索，一搜即达。
     - title: 知乎
       logo: 知乎.png
-      url: https://www.zhihu.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: 知乎社区。
     - title: V2EX
       logo: v2ex.jpg
-      url: https://www.v2ex.com/
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       description: V2EX 创意工作者的社区。
     - title: 关注我们
       logo: 关注.jpg
-      url: https://www.bioitee.com
+      url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
       qrcode: qrcode.jpg
       description: 微信公众号：BioIT 爱好者！
 
@@ -49,71 +49,71 @@
       links:
         - title: NCBI
           logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: National Center for Biotechnology Information.
         - title: Bioconda
           logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: "Bioconda :: Anaconda.org."
         - title: CPAN
           logo: cpan.jpg
-          url: https://metacpan.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Search the CPAN.
         - title: Galaxy Project
           logo: galaxy_project.png
-          url: https://galaxyproject.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Galaxy Community Hub.
         - title: R Project
           logo: r-project.jpg
-          url: https://www.r-project.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: https://www.r-project.org
         - title: Bioconductor
           logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: http://www.bioconductor.org
     - term: 云服务器
       links:
         - title: 阿里云
           logo: 阿里云.jpg
-          url: https://www.aliyun.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 上云就上阿里云。
         - title: 腾讯云
           logo: 腾讯云.webp
-          url: https://cloud.tencent.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 产业智变，云启未来。
         - title: 华为云
           logo: 华为云.png
-          url: https://www.huaweicloud.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 提供云计算服务+智能，见未来-华为云。
         - title: 云筏科技
           logo: 云筏.png
-          url: https://www.cloudraft.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 你的生信科研好选择。
         - title: 极云普惠云电脑
           logo: 极云普惠云电脑.png
-          url: https://www.ji-cloud.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 云电脑-云游戏-手机变电脑软件。
         - title: 青椒云
           logo: 青椒云.jpg
-          url: https://www.qingjiaocloud.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 云桌面,一站式云电脑服务平台。
     - term: 办公学习
       links:
         - title: 有道词典
           logo: 有道词典.png
-          url: https://www.youdao.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 免费，即时的多语种在线翻译。
         - title: 有道翻译
           logo: 有道词典.png
-          url: http://fanyi.youdao.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 有道翻译。
         - title: 谷歌翻译
           logo: 谷歌翻译.jpg
-          url: https://translate.google.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 谷歌翻译。
         - title: ProcessOn
           logo: ProcessOn.png
-          url: https://www.processon.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 免费在线作图、实时协作。
         
 
@@ -124,37 +124,37 @@
       links:
         - title: 腾讯视频
           logo: 腾讯视频.png
-          url: http://v.qq.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 腾讯视频，海量视频在线观看。
         - title: 优酷
           logo: 优酷.png
-          url: http://www.youku.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 优酷 - 这个世界很酷。
         - title: 爱奇艺
           logo: 爱奇艺.png
-          url: https://www.iqiyi.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 爱奇艺在线视频。
         - title: 哔哩哔哩
           logo: 哔哩哔哩.png
-          url: https://www.bilibili.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Bilibili 视频弹幕网站。
         - title: QQ 音乐
           logo: QQ音乐.jpg
-          url: https://y.qq.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: QQ 音乐，在线听歌。
         - title: 网易云音乐
           logo: 网易云音乐.jpg
-          url: https://music.163.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 163 网易云音乐。
     - term: 游戏竞技
       links:
         - title: 百度贴吧
           logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 百度贴吧。
         - title: 台服战地
           logo: 战地之王.png
-          url: https://ava.mangot5.com/ava/index
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 台服 AVA 战地之王。
    
       
@@ -165,206 +165,206 @@
       links:
         - title: 百度网盘
           logo: 百度网盘.jpg
-          url: http://pan.baidu.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: https://pan.baidu.com/.
         - title: 阿里云盘
           logo: 阿里云盘.png
-          url: https://www.aliyundrive.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 阿里云盘，你的数字世界。
         - title: 天翼云盘
           logo: 天翼云盘.jpg
-          url: https://cloud.189.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 家庭云|网盘|文件备份|资源分享。
         - title: 坚果云
           logo: 坚果云.png
-          usrl: https://www.jianguoyun.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 坚果云官网。
     - term: 图标素材
       links:
         - title: Iconfinder
           logo: Iconfinder.png
-          url: https://www.iconfinder.com
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 2,100,000+ free and premium vector icons.
         - title: iconfont
           logo: iconfont.png
-          url: http://www.iconfont.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 阿里巴巴矢量图标库。
         - title: iconmonstr
           logo: iconmonstr.png
-          url: https://iconmonstr.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Free simple icons for your next project.
         - title: Icon Archive
           logo: iconarchive.png
-          url: http://www.iconarchive.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Search 590,912 free icons.
         - title: FindIcons
           logo: FindIcons.png
-          url: https://findicons.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Search through 300,000 free icons.
         - title: IcoMoonApp
           logo: IcoMoonApp.png
-          url: https://icomoon.io/app/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Icon Font, SVG, PDF &amp; PNG Generator.
         - title: easyicon
           logo: easyicon.png
-          url: http://www.easyicon.net/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: PNG、ICO、ICNS格式图标搜索、图标下载服务。
         - title: flaticon
           logo: flaticon.png
-          url: https://www.flaticon.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.
         - title: UICloud
           logo: UICloud.png
-          url: http://ui-cloud.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: The largest user interface design database in the world.
         - title: Material icons
           logo: Materialicons.png
-          url: https://material.io/icons/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
         - title: Font Awesome Icon
           logo: fontawesomeicon.png
-          url: https://fontawesome.com/icons/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: The complete set of 675 icons in Font Awesome.
         - title: ion icons
           logo: ionicons.png
-          url: http://ionicons.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: The premium icon font for Ionic Framework.
         - title: Simpleline Icons
           logo: simplelineicons.png
-          url: http://simplelineicons.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Simple line Icons pack.
     - term: 图标设计
       links:
         - title: Iconsfeed
           logo: iconsfeed.png
-          url: http://www.iconsfeed.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: iOS icons gallery.
         - title: iOS Icon Gallery
           logo: iosicongallery.png
-          url: http://iosicongallery.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Showcasing beautiful icon designs from the iOS App Store.
         - title: World Vector Logo
           logo: worldvectorlogo.png
-          url: https://worldvectorlogo.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Brand logos free to download.
         - title: Instant Logo Search
           logo: InstantLogoSearch.png
-          url: http://instantlogosearch.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Search & download thousands of logos instantly.
     - term: 平面素材
       links:
         - title: freepik
           logo: freepik.png
-          url: https://www.freepik.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: More than a million free vectors, PSD, photos and free icons.
         - title: wallhalla
           logo: wallhalla.png
-          url: https://wallhalla.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Find awesome high quality wallpapers for desktop and mobile in one place.
         - title: 365PSD
           logo: 365PSD.png
-          url: https://365psd.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Free PSD &amp; Graphics, Illustrations.
         - title: Medialoot
           logo: Medialoot.png
-          url: https://medialoot.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: Free &amp; Premium Design Resources &mdash; Medialoot.
         - title: 千图网
           logo: qiantu.png
-          url: http://www.58pic.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 专注免费设计素材下载的网站.
         - title: 千库网
           logo: qianku.png
-          url: http://588ku.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 免费 png 图片背景素材下载。
         - title: 我图网
           logo: wotu.png
-          url: http://www.ooopic.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 我图网，提供图片素材及模板下载，专注正版设计作品交易。
         - title: 90 设计
           logo: 90sheji.png
-          url: http://90sheji.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 电商设计（淘宝美工）千图免费淘宝素材库。
         - title: 昵图网
           logo: nipic.png
-          url: http://www.nipic.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 原创素材共享平台。
         - title: 懒人图库
           logo: lanrentuku.png
-          url: http://www.lanrentuku.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 懒人图库专注于提供网页素材下载。
         - title: 素材搜索
           logo: sousucai.png
-          url: http://so.ui001.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 设计素材搜索聚合。
         - title: PS 饭团网
           logo: psefan.png
-          url: http://psefan.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 不一样的设计素材库！让自己的设计与众不同！
         - title: 素材中国
           logo: sccnn.png
-          url: http://www.sccnn.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           description: 免费素材共享平台。
     - term: 字体资源
       links:
         - title: Google Font
-          url: https://fonts.google.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: googlefont.png
           description: Making the web more beautiful, fast, and open through great typography.
         - title: Typekit
-          url: https://typekit.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: typekit.png
           description: Quality fonts from the world’s best foundries.
         - title: 方正字库
-          url: http://www.foundertype.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: Fondertype.png
           description: 方正字库官方网站。
         - title: 字体传奇网
-          url: http://ziticq.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: ziticq.png
           description: 中国首个字体品牌设计师交流网。
         - title: 私藏字体
-          url: http://sicangziti.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: sicangziti.png
           description: 优质字体免费下载站。
         - title: Fontsquirrel
-          url: https://www.fontsquirrel.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: fontsquirrel.png
           description: FREE fonts for graphic designers.
         - title: Urban Fonts
-          url: https://www.urbanfonts.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: UrbanFonts.png
           description: Download Free Fonts and Free Dingbats.
         - title: Lost Type
-          url: http://www.losttype.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: losttype.png
           description: Lost Type is a Collaborative Digital Type Foundry.
         - title: FONTS2U
-          url: https://fonts2u.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: fonts2u.png
           description: Download free fonts for Windows and Macintosh.
         - title: Fontex
-          url: http://www.fontex.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: fontex.png
           description: Free Fonts to Download + Premium Typefaces.
         - title: FontM
-          url: http://fontm.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: FontM.png
           description: Free Fonts
         - title: My Fonts
-          url: http://www.myfonts.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: MyFonts.png
           description: Fonts for Print, Products & Screens.
         - title: Da Font
-          url: https://www.dafont.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: dafont.png
           description: Archive of freely downloadable fonts.
         - title: OnlineWebFonts
-          url: https://www.onlinewebfonts.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: OnlineWebFonts.png
           description: WEB Free Fonts for Windows and Mac / Font free Download.
         - title: Abstract Fonts
-          url: http://www.abstractfonts.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: abstractfonts.png
           description: Abstract Fonts (13,866 free fonts).      
       
@@ -375,176 +375,176 @@
     - term: 图形创意
       links:
         - title: photoshop
-          url: https://www.adobe.com/cn/products/photoshop.html
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: photoshop.png
           description: Photoshop不需要解释
         - title: Affinity Designer
-          url: https://affinity.serif.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: AffinityDesigner.png
           description: 专业创意软件
         - title: Illustrator
-          url: https://www.adobe.com/cn/products/illustrator/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: Illustrator.png
           description: 矢量图形和插图。
         - title: indesign
-          url: http://www.adobe.com/cn/products/indesign.html
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: INDESIGN .png
           description: 页面设计、布局和出版。
         - title: cinema-4d
-          url: https://www.maxon.net/en/products/cinema-4d/overview/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: cinema4d.png
           description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free.
         - title: 3ds-max
-          url: https://www.autodesk.com/products/3ds-max/overview
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 3dsmax.png
           description: 3D modeling, animation, and rendering software
         - title: Blender
-          url: https://www.blender.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: blender.png
           description: Blender is the free and open source 3D creation suite.
     - term: 界面设计
       links:
         - title: Sketch
-          url: https://sketchapp.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: sketchapp.png
           description: The digital design toolkit
         - title: Adobe XD
-          url: http://www.adobe.com/products/xd.html
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: ADOBEXDCC.png
           description: Introducing Adobe XD. Design. Prototype. Experience.
         - title: invisionapp
-          url: https://www.invisionapp.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: invisionapp.png
           description: Powerful design prototyping tools
         - title: marvelapp
-          url: https://marvelapp.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: marvelapp.png
           description: Simple design, prototyping and collaboration
         - title: Muse CC
-          url: https://creative.adobe.com/zh-cn/products/download/muse
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: MuseCC.png
           description: 无需利用编码即可进行网站设计。
         - title: figma
-          url: https://www.figma.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: figma.png
           description: Design, prototype, and gather feedback all in one place with Figma.
     - term: 在线配色
       links:
         - title: khroma
-          url: http://khroma.co/generator/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: khroma.png
           description: Khroma is the fastest way to discover, search, and save color combos you'll want to use.
         - title: uigradients
-          url: https://uigradients.com
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: uigradients.png
           description: Beautiful colored gradients.
         - title: gradients
-          url: http://gradients.io/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: gradients.png
           description: Curated gradients for designers and developers.
         - title: Coolest
-          url: https://webkul.github.io/coolhue/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: Coolest.png
           description: Coolest handpicked Gradient Hues for your next super ⚡ amazing stuff.
         - title: webgradients
-          url: https://webgradients.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: webgradients.png
           description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. 
         - title: grabient
-          url: https://www.grabient.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: grabient.png
           description: 2017 Grabient by unfold.
         - title: thedayscolor
-          url: http://www.thedayscolor.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: thedayscolor.png
           description: The daily color digest
         - title: flatuicolors
-          url: http://flatuicolors.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: flatuicolors.png
           description: Copy Paste Color Pallette from Flat UI Theme.
         - title: coolors
-          url: https://coolors.co/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: coolors.png
           description: The super fast color schemes generator!
         - title: colorhunt
-          url: http://www.colorhunt.co/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: colorhunt.png
           description: Beautiful Color Palettes.
         - title: Adobe Color CC
-          url: https://color.adobe.com/zh/create/color-wheel
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: AdobeColorCC.png
           description: Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
         - title: flatuicolorpicker
-          url: http://www.flatuicolorpicker.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: flatuicolorpicker.png
           description: Best Flat Colors For UI Design.
         - title: trianglify
-          url: http://qrohlf.com/trianglify-generator/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: trianglify.png
           description: Trianglify Generator.
         - title: klart
-          url: https://klart.co/colors/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: klart.png
           description: Beautiful colors and designs to your inbox every week.
         - title: vanschneider
-          url: http://www.vanschneider.com/colors
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: vanschneider.png
           description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
     - term: 在线工具
       links:
         - title: tinypng
-          url: https://tinypng.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: tinypng.png
           description: Optimize your images with a perfect balance in quality and file size.
         - title: goqr
-          url: http://goqr.me/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: goqr.png
           description: create QR codes for free (Logo, T-Shirt, vCard, EPS).
         - title: ezgif
-          url: https://ezgif.com
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: ezgif.png
           description: simple online GIF maker and toolset for basic animated GIF editing.
         - title: Android 9 patch
-          url: http://inloop.github.io/shadow4android/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: Android9patch.png
           description: Android 9-patch shadow generator fully customizable shadows.
         - title: screen sizes
-          url: http://screensiz.es/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: screensizes.png
           description: Viewport Sizes and Pixel Densities for Popular Devices.
         - title: svgomg
-          url: https://jakearchibald.github.io/svgomg/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: svgomg.png
           description: SVG 在线压缩平台。
         - title: 稿定抠图
-          url: https://www.gaoding.com
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
         
     - term: 谷歌插件
       links:
         - title: wappalyzer
-          url: https://www.wappalyzer.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: wappalyzer.png
           description: Identify technology on websites.
         - title: Panda
-          url: http://usepanda.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: usepanda.png
           description: A smart news reader built for productivity.
         - title: sizzy
-          url: https://sizzy.co/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: sizzy.png
           description: A tool for developing responsive websites crazy-fast.
         - title: csspeeper
-          url: https://csspeeper.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: csspeeper.png
           description: Smart CSS viewer tailored for Designers.
         - title: insight
-          url: http://insight.io/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: insight.png
           description: IDE-like code search and navigation, on the cloud.
         - title: mustsee
-          url: http://mustsee.earth/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
 
@@ -555,75 +555,76 @@
     - term: 资讯书籍
       links:
         - title: 微信读书
-          url: https://weread.qq.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 微信读书.jpg
           description: 微信读书电脑版。
         - title: 书栈网
-          url: https://www.bookstack.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 书栈网.jpg
           description: IT 互联网开源编程书籍免费阅读与下载。
     - term: 博客论坛
       links:
         - title: Inoreader
-          url: https://www.inoreader.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: inoreader.jpg
           description: 重新掌控你的新闻订阅源。
         - title: Hacker News
-          url: https://news.ycombinator.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: hacker-news.jpg
           description: 一家关于计算机黑客和创业公司的社会化新闻网站。
         - title: 经管之家
-          url: https://bbs.pinggu.org/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 经管之家.jpg
           description: 国内活跃的经济、管理、金融、统计在线教育和咨询网站。
         - title: 阮一峰的网络日志
-          url: http://www.ruanyifeng.com/blog/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 阮一峰.png
           description: 阮一峰，科技爱好者周刊。
         - title: 酷壳
-          url: https://www.coolshell.cn/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: ''
           description: 酷 壳 – CoolShell。
     - term: 设计规范
       links:
         - title: Design Guidelines
-          url: http://designguidelines.co/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: designguidelines.png
           description: Design Guidelines &mdash; The way products are built.
         - title: Awesome design systems
-          url: https://github.com/alexpate/awesome-design-systems
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: awesome_design_systems.png
           description:  A collection of awesome design systems.
         - title: Material Design
-          url: https://material.io/guidelines/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: Material_Design.png
           description: Introduction - Material Design.
         - title: Human Interface Guidelines
-          url: https://developer.apple.com/ios/human-interface-guidelines
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: human_interface_guidelines.png
           description: Human Interface Guidelines iOS.
         - title: Photoshop Etiquette
-          url: http://viggoz.com/photoshopetiquette/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: photoshopetiquette.png
           description: PS礼仪-WEB设计指南。
     - term: 视频教程
       links:
         - title: Photoshop Lady
-          url: http://www.photoshoplady.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: PhotoshopLady.png
           description: Your Favourite Photoshop Tutorials in One Place.
         - title: doyoudo
-          url: http://doyoudo.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: doyoudo.png
           description: 创意设计软件学习平台。
         - title: 没位道
-          url: http://www.c945.com/web-ui-tutorial/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: web_ui_tutorial.png
           description: WEB UI免费视频公开课。
         - title: 慕课网
-          url: https://www.imooc.com/
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: imooc.png
           description: 程序员的梦工厂（有UI课程）。
+
     - term: 手机游戏
       links:
         - title: 喷气式战斗机模拟器 官方版
@@ -750,10 +751,6 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753428918442969.jpg
           description: 恐龙冒险类手游
-        - title: 云梦幻西游
-          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
-          logo: 1753428832323802.png
-          description: 属于天命之人的梦幻西游之旅
         - title: 饥饿的拉姆 最新版
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753428714296774.jpg
@@ -810,10 +807,6 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753426295509557.png
           description: 可以操控拉力赛车进行激烈比赛
-        - title: 云绝地求生 2025最新版
-          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
-          logo: 1753425996925888.png
-          description: 与全球玩家进行刺激的射击战斗
         - title: 修勾地铁逃生 官方正版不用登陆
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753425837528394.png
@@ -4911,6 +4904,14 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1752569931920482.png
           description: 体验刺激的生存对决
+        - title: 吃鸡争霸大赛
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
+          logo: 1752569894564068.png
+          description: 欢乐的吃鸡大逃杀
+        - title: 开宗立派模拟器 微变版
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
+          logo: 1752570187976859.png
+          description: 成为一个门派的大师
     - term: 手机软件
       links:
         - title: xe炸图辅助器 官网正版
@@ -6009,10 +6010,6 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753257344354565.png
           description: 免费动漫追番软件
-        - title: Nova Launcher 官方版
-          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
-          logo: 1753257244874334.jpg
-          description: 安卓知名的第三方桌面启动器
         - title: 凉鹤美化包 防闪退
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753256968672823.png
@@ -6109,10 +6106,6 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753250978535794.png
           description: 功能强大的视频播放软件
-        - title: 火焰刀美化包 3.0免费
-          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
-          logo: 1753250627560282.jpg
-          description: 随时享受各种精致美丽的效果
         - title: 掌上命运方舟 手机版
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753250838813064.png
@@ -6441,10 +6434,6 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753171955941396.png
           description: 2025免费动漫观看软件
-        - title: 囧次元 2025最新版无广告
-          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
-          logo: 1753171285154994.png
-          description: 面向广大动漫爱好者
         - title: 囧次元 1.5.7.9无广告版
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1753171653892328.png
@@ -9197,3 +9186,15 @@
           url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
           logo: 1751854833931848.png
           description: 随时在线听歌播放的软件
+        - title: 好游快爆 app官方正版下载安装
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
+          logo: 1751854536359886.png
+          description: 优质游戏社区手机app
+        - title: 动漫共和国 免广告纯净版
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
+          logo: 1751854501439567.png
+          description: 收集了大量动漫资源
+        - title: 星火免费小说 手机版
+          url: https://down123.s3.ap-east-1.amazonaws.com/down/down.html?channelCode=seo
+          logo: 1751854384350618.png
+          description: 免费阅读精品小说图书
