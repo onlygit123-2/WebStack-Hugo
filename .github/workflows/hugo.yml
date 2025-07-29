@@ -1,4 +1,4 @@
-name: Hugo Actions
+name: Hugo Multi-Site Deploy
 
 on:
   push:
@@ -13,7 +13,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
@@ -24,16 +25,33 @@ jobs:
           hugo-version: '0.122.0'
           extended: false
 
-      - name: Build Site
+      - name: Build and Deploy Multiple Sites
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cp -R exampleSite/* .
-          hugo --themesDir ../ --baseURL https://aldult-live.github.io/WebStack-Hugo
+          # 设置数量，根据你有多少个 config_*.toml
+          TOTAL=3
+          
+          for i in $(seq 1 $TOTAL); do
+            echo "🚧 构建第 $i 个站点..."
+            
+            # 清理 public 文件夹
+            rm -rf public
+            
+            # 构建当前站点，指定配置文件
+            hugo --themesDir ../ --config config_$i.toml
 
-      - name: Deploy Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          force_orphan: true
-          full_commit_message: ${{ github.event.head_commit.message }}
+            echo "🚀 部署到分支 gh-pages-$i"
+
+            cd public
+            git init
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Deploy config_$i.toml -> gh-pages-$i"
+            git branch -M gh-pages-$i
+            git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+            git push -f origin gh-pages-$i
+            cd ..
+            rm -rf public
+          done
