@@ -42,7 +42,7 @@ jobs:
             rm -rf public
             
             # 构建当前站点，指定配置文件
-            hugo --themesDir ../ --config config_$i.toml
+            hugo --themesDir ../ --config config_$i.toml --baseURL https://onlygit123-2.github.io/WebStack-Hugo
 
             echo "🚀 部署到分支 gh-pages-$i"
 
