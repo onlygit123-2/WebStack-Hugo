@@ -34,6 +34,9 @@ jobs:
           
           for i in $(seq 1 $TOTAL); do
             echo "🚧 构建第 $i 个站点..."
+            # 每次都还原 exampleSite 内容
+            rm -rf config* content data
+            cp -R exampleSite/* .
             
             # 清理 public 文件夹
             rm -rf public
