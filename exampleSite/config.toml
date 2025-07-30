@@ -1,6 +1,6 @@
 baseURL               = "https://bioit.top/"
 languageCode          = "zh-CN"
-title                 = "WebStack-Hugo "
+title                 = "WebStack-Hu "
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
