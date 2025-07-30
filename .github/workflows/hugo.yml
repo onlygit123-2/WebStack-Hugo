@@ -35,7 +35,7 @@ jobs:
             rm -rf config* content data
             cp -R exampleSite/* .
 
-            hugo --themesDir ../ --config config_$i.toml --baseURL https://onlygit123-2.github.io/WebStack-Hugo/
+            hugo --themesDir ../ --config config_$i.toml --baseURL https://onlygit123-2.github.io/WebStack-Hugo/site1
 
             mkdir -p dist/site$i
             cp -r public/* dist/site$i/
