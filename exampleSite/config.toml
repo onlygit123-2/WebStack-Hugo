@@ -1,6 +1,6 @@
 baseURL               = "https://bioit.top/"
 languageCode          = "zh-CN"
-title                 = "WebStk"
+title                 = "WebStack-Hugo test 网址导航"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -10,7 +10,7 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 [params]
     author        = "shenweiyan"
-    description   = "Webstack-Hugo 网址导航"
+    description   = "Webstack-Hugo 网址导航 | Hugo 主题 BY Bio IT 爱好者"
     upload        = "https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871"      # 左侧导航栏的"网站提交"
     about         = "https://github.com/shenweiyan/Knowledge-Garden/discussions/10"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
@@ -28,7 +28,17 @@ publishDir            = "public"				# 站点静态文件保存目录
     baiduSiteVer    = 'codeva-cCAOSG8MBO'			# 百度HTML标签验证(baidu-site-verification)
     tj51laid        = ''                        		# 51.LA 网站统计
     tj51lack        = ''
-    GoogleAdsClient = ''					# Google AdSense 
+    GoogleAdsClient = ''					# Google AdSense
+    googleAnalytics = ''					# Google Analytics ID
+    googleSiteVer   = ''					# Google Search Console 验证
+    bingSiteVer     = ''					# Bing Webmaster Tools 验证
+    yandexSiteVer   = ''					# Yandex Webmaster 验证
+    enableSitemap   = true					# 启用自动生成sitemap
+    enableRobots    = true					# 启用robots.txt
+    enableBreadcrumb = true					# 启用面包屑导航
+    enableSchema    = true					# 启用结构化数据
+    enableOG        = true					# 启用Open Graph
+    enableTwitter   = true					# 启用Twitter Cards 
 
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"

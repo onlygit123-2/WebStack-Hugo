@@ -1,7 +1,6 @@
 baseURL               = "https://bioit.top/"
 languageCode          = "zh-CN"
 title                 = "51麻豆导航 - 51麻豆成人宅男福利导航"
-keywords              = "51麻豆导航,51麻豆福利,色情导航,成人导航,黄色导航,中文导航,成人网站,色情网站,黄色网站,51麻豆视频,精品导航,福利导航,xxoo导航"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -11,12 +10,12 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 [params]
     author        = "6D"
-    description   = "51麻豆导航搜罗全网最新最热的优质精品福利站点,只为做狼友的百宝箱带来便捷愉快体验"
+    description   = "51麻豆导航搜罗全网最新最热的优质精品福利站点,只为做狼友的百宝箱带来便捷愉快体验,51麻豆导航,51麻豆福利,色情导航,成人导航,黄色导航,中文导航,成人网站,色情网站,黄色网站,51麻豆视频,精品导航,福利导航,xxoo导航"
     upload        = "https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871"      # 左侧导航栏的"网站提交"
     about         = "https://github.com/shenweiyan/Knowledge-Garden/discussions/10"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
     enablePreLoad = true					# 网站完全打开前预加载动画
-    textPreLoad   = "Hugo 网址导航主题"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
+    textPreLoad   = "51麻豆"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false					# 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/logos/default.webp"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功

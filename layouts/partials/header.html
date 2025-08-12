@@ -7,12 +7,67 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#f9f9f9" />
-    <title>{{ .Site.Title }}</title>
+    
+    <!-- 基础SEO标签 -->
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+    <meta name="keywords" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Keywords }}{{ end }}" />
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    <link rel="canonical" href="{{ .Permalink }}" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+    <meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+    <meta property="og:image" content="{{ absURL $.Site.Params.images.favicon }}" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:locale" content="zh_CN" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="{{ .Permalink }}" />
+    <meta property="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+    <meta property="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+    <meta property="twitter:image" content="{{ absURL $.Site.Params.images.favicon }}" />
+    
+    <!-- 其他SEO标签 -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
     <link rel="shortcut icon" href="{{ absURL $.Site.Params.images.favicon }}" />
-    <meta name="keywords" content="{{ .Site.Title }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ absURL $.Site.Params.images.favicon }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ absURL $.Site.Params.images.favicon }}" />
+    <link rel="apple-touch-icon" href="{{ absURL $.Site.Params.images.favicon }}" />
+    
     {{ if $.Site.Params.seo.baiduSiteVer }}
     <meta name="baidu-site-verification" content="{{ $.Site.Params.seo.baiduSiteVer }}" />
     {{ end }}
+    
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "{{ if .IsHome }}WebSite{{ else }}WebPage{{ end }}",
+        "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
+        "description": "{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}",
+        "url": "{{ .Permalink }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ .Site.Title }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ absURL $.Site.Params.images.favicon }}"
+            }
+        }
+        {{ if .IsHome }},
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+        {{ end }}
+    }
+    </script>
     <link rel="stylesheet" id="block-library-css"
         href="{{ absURL "assets/css/block-library.min-5.6.2.css" }}" type="text/css" media="all" />
     <link rel="stylesheet" id="iconfont-css" href="{{ absURL "assets/css/iconfont-3.03029.1.css" }}"

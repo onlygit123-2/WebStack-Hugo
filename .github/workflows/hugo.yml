@@ -1,4 +1,4 @@
-name: Hugo Multi-Site Deploy to Subdirs
+name: Hugo Multi-Site Deploy
 
 on:
   push:
@@ -25,30 +25,36 @@ jobs:
           hugo-version: '0.122.0'
           extended: false
 
-      - name: Build All Sites
+      - name: Build and Deploy Multiple Sites
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir dist
-          TOTAL=3
+          # 设置数量，根据你有多少个 config_*.toml
+          TOTAL=30
+          
           for i in $(seq 1 $TOTAL); do
-            echo "🔧 构建第 $i 个站点..."
-
+            echo "🚧 构建第 $i 个站点..."
+            # 每次都还原 exampleSite 内容
             rm -rf config* content data
             cp -R exampleSite/* .
+            
+            # 清理 public 文件夹
+            rm -rf public
+            
+            # 构建当前站点，指定配置文件
+            hugo --themesDir ../ --config config_$i.toml --baseURL https://aldult-live.github.io/WebStack-Hugo
 
-            hugo --themesDir ../ --config config_$i.toml --baseURL https://onlygit123-2.github.io/WebStack-Hugo/site1
+            echo "🚀 部署到分支 gh-pages-$i"
 
-            mkdir -p dist/site$i
-            cp -r public/* dist/site$i/
+            cd public
+            git init
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Deploy config_$i.toml -> gh-pages-$i"
+            git branch -M gh-pages-$i
+            git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+            git push -f origin gh-pages-$i
+            cd ..
+            rm -rf public
           done
-
-      - name: Deploy to gh-pages branch
-        run: |
-          cd dist
-          git init
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "🚀 Deploy all Hugo sites to gh-pages"
-          git branch -M gh-pages
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push -f origin gh-pages

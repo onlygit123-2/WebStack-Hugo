@@ -1,0 +1,23 @@
+{{ if not .IsHome }}
+<nav aria-label="breadcrumb" class="breadcrumb-nav mb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">
+                <i class="fas fa-home"></i> 首页
+            </a>
+        </li>
+        {{ if .IsPage }}
+            {{ with .Parent }}
+                {{ if not .IsHome }}
+                    <li class="breadcrumb-item">
+                        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                    </li>
+                {{ end }}
+            {{ end }}
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+        {{ else if .IsSection }}
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+        {{ end }}
+    </ol>
+</nav>
+{{ end }}
