@@ -68,21 +68,66 @@
         {{ end }}
     }
     </script>
-    <link rel="stylesheet" id="block-library-css"
-        href="{{ absURL "assets/css/block-library.min-5.6.2.css" }}" type="text/css" media="all" />
-    <link rel="stylesheet" id="iconfont-css" href="{{ absURL "assets/css/iconfont-3.03029.1.css" }}"
-        type="text/css" media="all" />
-    <link rel="stylesheet" id="bootstrap-css" href="{{ absURL "assets/css/bootstrap.min-4.3.1.css" }}"
-        type="text/css" media="all" />
-    <link rel="stylesheet" id="fancybox-css" href="{{ absURL "assets/css/fancybox.min-3.5.7.css" }}"
-        type="text/css" media="all" />
-    <link rel="stylesheet" id="iowen-css" href="{{ absURL "assets/css/style-3.03029.1.css" }}"
-        type="text/css" media="all" />
-    <link rel="stylesheet" id="custom-css" href="{{ absURL "assets/css/custom-style.css" }}"
-        type="text/css" media="all" />
-    <link rel="stylesheet" id="fortawesome-css" href="{{ absURL "assets/fontawesome-5.15.4/css/all.min.css" }}" type="text/css" />
+    <!-- 关键CSS内联 -->
+    <style>
+      /* 首屏关键样式 */
+      .header-big { background-size: cover; background-position: center; }
+      .sidebar-menu { position: fixed; top: 0; left: 0; height: 100%; z-index: 1000; }
+      .content-site { margin-left: 250px; padding: 20px; }
+      .url-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+      .url-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+      .floating-notify { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); }
+      @media (max-width: 768px) { .content-site { margin-left: 0; } .sidebar-menu { transform: translateX(-100%); } }
+    </style>
+    
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="{{ absURL "assets/css/bootstrap.min-4.3.1.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ absURL "assets/css/style-3.03029.1.min.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ absURL "assets/css/custom-style.min.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- 非关键CSS异步加载 -->
+    <link rel="preload" href="{{ absURL "assets/css/block-library.min-5.6.2.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ absURL "assets/css/iconfont-3.03029.1.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ absURL "assets/css/fancybox.min-3.5.7.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ absURL "assets/fontawesome-5.15.4/css/all.min.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- 预加载关键字体 -->
+    <link rel="preload" href="{{ absURL "assets/fontawesome-5.15.4/webfonts/fa-solid-900.woff2" }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ absURL "assets/fontawesome-5.15.4/webfonts/fa-regular-400.woff2" }}" as="font" type="font/woff2" crossorigin>
+    
+    <!-- 现代化样式 -->
+    <link rel="preload" href="{{ absURL "assets/css/modern-style.css" }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <script type="text/javascript" src="{{ absURL "assets/js/jquery.min-3.2.1.js" }}" id="jquery-js"></script>
     <script type="text/javascript" src="{{ absURL "assets/js/content-search.js" }}"  id="content-search-js"></script>
+    <!-- Service Worker 注册 -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                        console.log('✅ Service Worker 注册成功:', registration.scope);
+                        
+                        // 检查更新
+                        registration.addEventListener('updatefound', function() {
+                            const newWorker = registration.installing;
+                            newWorker.addEventListener('statechange', function() {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    // 有新版本可用
+                                    if (confirm('发现新版本，是否立即更新？')) {
+                                        newWorker.postMessage({type: 'SKIP_WAITING'});
+                                        window.location.reload();
+                                    }
+                                }
+                            });
+                        });
+                    })
+                    .catch(function(error) {
+                        console.error('❌ Service Worker 注册失败:', error);
+                    });
+            });
+        }
+    </script>
+    
     <!-- 百度统计 -->
     <script>
         {{ with .Site.Params.seo.baiduhmid }}
