@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# 禁止访问管理相关目录
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/uploads/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/backup-db/
+Disallow: /wp-content/backups/
+Disallow: /wp-content/blogs.dir/
+Disallow: /wp-content/upgrade/
+Disallow: /wp-content/uploads/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /wp-config.php
+Disallow: /wp-config-sample.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+
+# 允许访问静态资源
+Allow: /assets/
+Allow: /static/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# 网站地图
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+# 爬取延迟（秒）
+Crawl-delay: 1
